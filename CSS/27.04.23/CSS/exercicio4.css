@@ -1,0 +1,72 @@
+:root{
+    --section: #ffe4e1;
+    --footer: #5dc460;
+    --header: #a2a0a1;
+    --div1: #84b6f4;
+    --div2: #95fab4;
+    --div3: #f4fab4;
+    --div4: #f7cae4;
+    --div5: #ffca99;
+    --div6: #bc98f3;
+}
+
+main{
+    margin: auto;
+    max-width: 1000px;
+}
+
+header{
+    background-color: var(--header);
+    padding: 60px;
+}
+
+section{
+    background-color: var(--section);
+    margin: auto;
+    width: 1000px;
+}
+
+.primeira{
+    display: flex;
+}
+
+.primeira > .div1{
+    background-color: var(--div1);
+    height: 450px;
+    width: 350px;
+}
+
+.primeira > .div2{
+    background-color: var(--div2);
+    height: 650px;
+    width: 650px;
+}
+
+.segunda{
+    display: flex;
+}
+
+.segunda >.div3{
+    background-color: var(--div3);
+    height: 650px;
+    width: 350px;
+}
+
+.segunda > .div4{
+    background-color: var(--div4);
+    height: 300px;
+    width: 650px;
+}
+
+.terceira{
+    display: flex;
+}
+
+.terceira > .div5{
+    background-color: var(--div5);
+    height: 300px;
+    width: 650px;
+}
+
+
+

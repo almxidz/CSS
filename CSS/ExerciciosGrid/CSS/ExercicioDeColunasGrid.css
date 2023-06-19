@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    max-width: 400px;
+    text-align: center;
+}
+
+.colunas1{
+    grid-template-columns: 200px 200px 200px;
+}
+
+.item{
+    background-color: lightgreen;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.colunas2{
+    grid-template-columns: 1fr 2fr;
+}

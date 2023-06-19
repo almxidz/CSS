@@ -1,0 +1,42 @@
+:root{
+    --section: #ffe4ec;
+    --div1: #f74780;
+    --div2: #fc6998;
+    --div3: #fa8fb1;
+    --div4: #ffc1d5;
+}
+
+main{
+    margin: auto;
+    max-width: 1000px;
+}
+
+.primeiro{
+    background-color: var(--section);
+    height: 450px;
+    margin: auto;
+    width: 900px;
+    display: flex;
+}
+
+.primeiro > .div1{
+    background-color: var(--div1);
+    height: 450px;
+    width: 450px;
+}
+
+.primeiro > .conteudo{
+    background-color: black;
+    height: 450px;
+    width: 450px;
+}
+
+.primeiro > .conteudo > .div2{
+    background-color: lightpink;
+    width: 450px;
+    height: 220px;
+}
+
+.primeiro > .conteudo > .conteudo2{
+    
+}

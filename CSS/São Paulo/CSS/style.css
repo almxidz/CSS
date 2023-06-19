@@ -1,0 +1,61 @@
+body{
+    background-color: #FFF1D6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6; /*espaçamento entre as linhas*/
+}
+
+main{
+    margin: auto; /*centraliza*/
+    max-width: 960px; 
+}
+
+h1:hover /*muda a cor do texto quando passa o mouse por cima*/{
+    background-color: #7E9F19;
+    color: #FFF;
+}
+
+article{
+    float: left;
+    width: 600px;
+}
+
+section{
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+h2{
+    border-bottom: 1px dashed /*pontilha o texto*/ #7E9F19;
+}
+
+section img{
+    border: 1px solid #7E9F19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    width: 150px;
+}
+
+.clear{
+    clear: both; /*alinhamento (ângulo)*/
+}
+
+aside{
+    background-color: #fffbe4;
+    border: 1px solid #C9BC8F;
+    float: right;
+    padding: 10px;
+    width: 260px;
+}
+
+aside h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+aside ol{
+    font-size: 12px;
+}

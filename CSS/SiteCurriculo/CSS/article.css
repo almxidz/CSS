@@ -1,0 +1,58 @@
+article{
+    flex: 70%;
+    margin: 0px 20px;
+}
+
+.WorkExperience{
+    flex: 70%;
+    background-color: #fff;
+}
+
+.parte01{
+    display: flex;
+}
+
+.parte02{
+    display: flex;
+}
+
+.parte04{
+    display: flex;
+}
+
+.parte06{
+    display: flex;
+}
+
+.data{
+    color: var(--destaque--);
+}
+
+.Education{
+    flex: 70%;
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+.parte07{
+    display: flex;
+}
+
+.parte09{
+    display: flex;
+}
+
+.parte10{
+    display: flex;
+}
+
+.parte11{
+    display: flex;
+}
+
+footer{
+    background-color: var(--destaque--);
+    text-align: center;
+    padding: 20px;
+    color: #fff
+}

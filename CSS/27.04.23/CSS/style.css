@@ -1,0 +1,102 @@
+:root{
+    --div1: #dee5bc;
+    --div2: #fae5e0;
+    --div3: #d5e4e7;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.flexbox > div{
+    padding: 20px;
+    width: 200px;
+}
+
+.div1{
+    background-color: var(--div1);
+}
+
+.div2{
+    background-color: var(--div2);
+}
+
+.div3{
+    background-color: var(--div3);
+}
+
+.flexbox{
+    display: flex;
+
+}
+
+.flexbox2{
+    display: flex;
+    padding: 20px;
+   flex-direction: row-reverse;
+   
+}
+
+.flexbox2 > div{
+    padding: 20px;
+    width: 200px;
+}
+
+.div4{
+    background-color: var(--div1);
+}
+
+.div5{
+    background-color: var(--div2);
+}
+
+.div6{
+    background-color: var(--div3);
+}
+
+.flexbox3 > div{
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+.div7{
+    background-color: var(--div1);
+}
+
+.div8{
+    background-color: var(--div2);
+}
+
+.div9{
+    background-color: var(--div3);
+}
+
+.flexbox3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox4 > div{
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+.div10{
+    background-color: var(--div1);
+}
+
+.div11{
+    background-color: var(--div2);
+}
+
+.div12{
+    background-color: var(--div3);
+}
+
+.flexbox4{
+    display: flex;
+    justify-content: space-around;
+}

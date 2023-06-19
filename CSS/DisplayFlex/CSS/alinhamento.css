@@ -1,0 +1,16 @@
+.um > div{
+    background-color:white;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.um{
+    align-content: center;
+    background-color: rgb(230, 173, 201);
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    width: 900px;
+}
